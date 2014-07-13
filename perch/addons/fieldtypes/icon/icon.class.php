@@ -23,12 +23,10 @@ class PerchFieldType_icon extends PerchAPI_FieldType
    
     /*public function get_raw($post=false, $Item=false) 
     {
-        return "porcodio";
-    }*/
+    }
     
-    /*public function get_processed($raw=false)
-    { 
-        return "porco dio";   
+    public function get_processed($raw=false)
+    {  
     }
     
     public function get_search_text($raw=false)
@@ -37,7 +35,8 @@ class PerchFieldType_icon extends PerchAPI_FieldType
 
     public function render_admin_listing($raw=false)
     {
-        return '<i class="fa fa-'+$this->get_raw()+' fa-3x fa-fw"></i>';
+        //$value = $this->Form->get( $raw, $this->Tag->input_id() );
+        return '<i class="fa fa-'.$raw.' fa-3x fa-fw">'.$raw.'</i>';
     }
 
 }
