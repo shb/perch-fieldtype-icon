@@ -1,0 +1,8 @@
+/perch/
+/perch/addons/
+/perch/addons/fieldtypes/
+!/perch/addons/fieldtypes/icon/
+/perch/config/config.php
+/perch/templates/
+/perch/templates/content/
+!/perch/templates/content/icon.html
